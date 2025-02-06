@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Roboto:ital,wght@0,100;0,500;1,300;1,400&display=swap');
 
 * {
   box-sizing: border-box;
@@ -10,8 +10,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  font-family: Helvetica, Arial, sans-serif;
-  background: silver;
+  font-family: 'roboto', sans-serif;
   color: #050542;
 }
 
@@ -19,35 +18,35 @@ header {
   padding: 0.5rem;
   background: #A675F5;
   color: white;
-
-  h1 {
-    text-transform: uppercase;
-  }
 }
 
-article {
+ article {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  width: 20rem;
-  aspect-ratio: 1/1;
+  width: 25rem;
+  height: 30rem;
   border-radius: 0.5rem;
   overflow: hidden;
-  background: white;
   text-align: center;
   transform-origin: center;
   transform: rotate(2deg);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   > p {
     font-size: 2rem;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'roboto', sans-serif;
     transform-origin: center;
     transform: rotate(-6deg);
     word-break: break-all;
   }
+  h1 {
+    text-transform: uppercase;
+    /* background: lightgrey; */
+  }
 }
+
 
 footer {
   height: 1rem;
   background: #A675F5;
-}
+} 
