@@ -14,7 +14,48 @@ body {
   color: #050542;
 }
 
-header {
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 600px;
+  background-color: pink;
+}
+
+h1 {
+  text-transform: uppercase ;
+}
+
+div.blok {
+  border: 2px solid pink;
+  width: 230px;
+  height: 350px;
+  background-color: grey;
+}
+
+img.profielfoto {
+  align-items: center; 
+  object-fit: contain;
+  width: 250px;
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+ }
+
+ p.bio {
+  border: 2px solid black;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  z-index: 2;
+ }
+
+/* header {
   padding: 0.5rem;
   background: #A675F5;
   color: white;
@@ -41,12 +82,11 @@ header {
   }
   h1 {
     text-transform: uppercase;
+    
     /* background: lightgrey; */
-  }
-}
 
 
-footer {
+/* footer {
   height: 1rem;
   background: #A675F5;
-} 
+}   */
