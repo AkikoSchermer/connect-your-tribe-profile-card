@@ -22,7 +22,6 @@ article {
   align-items: center;
   width: 380px;
   height: 600px;
-  background:url("bloom.jpg") ;
   border: 2px solid black;
 }
 
@@ -54,9 +53,9 @@ img.profielfoto {
   align-items: center;
   object-fit: contain;
   width: 310px;
-  z-index: 2;
+  z-index: 1;
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
  }
@@ -67,16 +66,13 @@ img.profielfoto {
   justify-content: center;
   align-items: center;
   border: 2px solid black;
-  width: 300px;
+  width: 270px;
   height: 100px;
   z-index: 2;
   background-color:white;
   font-family: "League Spartan", serif;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding: 8px;
+  text-align: left;
   position: absolute;
   top: 56%;
   left: 50%;
